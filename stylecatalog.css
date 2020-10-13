@@ -1,0 +1,33 @@
+.inner-content h2 {
+  margin-top: 42px;
+  margin-bottom: 18px;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 500;
+  }
+  .inner-content h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  }
+  .inner-content h2+h3 {
+  margin-top: 28px;
+  }
+  .inner-content h2+p {
+  margin-top: 0px;
+  }
+  .inner-content h3+p {
+  margin-top: 0px;
+  }
+  .features p {
+  font-size: 15px;
+  }
+
+  .inner-content p {
+  margin: 22px 0;
+  font-weight: 500;
+  line-height: 22px;
+  }
