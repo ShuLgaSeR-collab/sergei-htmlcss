@@ -62,3 +62,174 @@
   margin: 0 auto;
   padding: 0 10px;
   }
+  .main-header {
+    padding-top: 25px;
+    background-color: #eeeeee;
+    margin-bottom: 80px;
+    }
+    .header {
+    float: left;
+    margin-bottom: 30px;
+    }
+
+    .main-navigation {
+    float: left;
+    width: 720px;
+    margin-right: 60px;
+    /*background: red;*/
+    }
+
+    .logo-inner {
+    display: block;
+    float: left;
+    width: 139px;
+    height: 56px;
+    margin-right: 20px;
+    }
+
+    .main-navigation ul,
+    .basket {
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 0px;
+    /*background: green;*/
+    width: 560px;
+    text-align: right;
+
+    }
+    .main-navigation li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 45px;
+    /*background: grey;*/
+
+    }
+
+    .main-navigation a,
+    .basket a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    /*background: blue;*/
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    }
+
+    .main-navigation .active {
+    position: relative;
+    background-color: none;
+    }
+
+    .main-navigation .active span {
+    display: block;
+    color: #000;
+    /*background: blue;*/
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    }
+
+    .main-navigation .active::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 2px;
+    background-color: #fb565a;
+    }
+
+    .main-navigation a:hover,
+    .basket a:hover {
+    color: #fb565a;
+    }
+
+    .basket {
+    width: 100px;
+    float: right;
+    position: relative;
+    }
+    .basket a {
+    text-align: right;
+    }
+    .basket::before {
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    background: url no-repeat;
+    background-position: 0px 0px;
+    }
+    .basket:hover::before {
+    background: url no-repeat;
+    }
+
+
+
+    .slider-1,
+    .slider-2,
+    .slider-3 {
+    display: none;
+    }
+
+    .show {
+    display: block;
+    }
+
+    .slider-left {
+    width: 480px;
+    /*background-color: blue;*/
+    float: left;
+    }
+
+
+    .slider-right {
+    width: 400px;
+    height: 320px;
+    /*background-color: blue;*/
+    margin: 0px;
+    float: right;
+    text-align: right;
+    padding: 0px;
+    }
+    .slider-right img {
+    width: 340px;
+    height: 320px;
+    }
+
+    .slider-controller {
+    display: inline-block;
+    /*background-color: yellow;*/
+    margin-top: 14px;
+    margin-left: 145px;
+    }
+    .btn {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 16px;
+    padding: 10px 70px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    vertical-align: top;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+    }
