@@ -1,138 +1,171 @@
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, hgroup, menu, section, summary,
-time, mark, audio, video, main, nav, header {
-margin:0;
-padding:0;
-border:0;
-outline:0;
-font-size:100%;
-vertical-align:baseline;
-background:transparent;
-}
+.main-header {
+  padding-top: 25px;
+  background-color: #eeeeee;
+  margin-bottom: 80px;
+  }
+  .header {
+  float: left;
+  margin-bottom: 30px;
+  }
 
-input:focus,
-textarea:focus {
-outline: none;
-}
+  .main-navigation {
+  float: left;
+  width: 720px;
+  margin-right: 60px;
+  /*background: red;*/
+  }
 
-body {
-line-height:1;
-}
+  .logo-inner {
+  display: block;
+  float: left;
+  width: 139px;
+  height: 56px;
+  margin-right: 20px;
+  }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-display:block;
-}
+  .main-navigation ul,
+  .basket {
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 0px;
+  /*background: green;*/
+  width: 560px;
+  text-align: right;
 
-nav ul {
-list-style:none;
-}
+  }
+  .main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 22px;
+  margin-left: 45px;
+  /*background: grey;*/
 
-blockquote, q {
-quotes:none;
-}
+  }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-content:'';
-content:none;
-}
+  .main-navigation a,
+  .basket a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  /*background: blue;*/
+  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  }
 
-a {
-margin:0;
-padding:0;
-/*font-size:100%;*/
-vertical-align:baseline;
-/*background:transparent;*/
-text-decoration: none;
-}
+  .main-navigation .active {
+  position: relative;
+  background-color: none;
+  }
 
-table {
-border-collapse:collapse;
-border-spacing:0;
-}
+  .main-navigation .active span {
+  display: block;
+  color: #000;
+  /*background: blue;*/
+  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  }
 
-hr {
-display:block;
-height:1px;
-border:0;
-border-top:1px solid #cccccc;
-margin:1em 0;
-padding:0;
-}
+  .main-navigation .active::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 2px;
+  background-color: #fb565a;
+  }
 
-input, select {
-vertical-align:middle;
-}
+  .main-navigation a:hover,
+  .basket a:hover {
+  color: #fb565a;
+  }
 
-/* OWL CAROUSEL PLUGIN STYLES*/
+  .basket {
+  width: 100px;
+  float: right;
+  position: relative;
+  }
+  .basket a {
+  text-align: right;
+  }
+  .basket::before {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  background: url no-repeat;
+  background-position: 0px 0px;
+  }
+  .basket:hover::before {
+  background: url no-repeat;
+  }
 
-/*
-* Owl Carousel - Animate Plugin
-*/
-.owl-carousel .animated {
--webkit-animation-duration: 1000ms;
-animation-duration: 1000ms;
--webkit-animation-fill-mode: both;
-animation-fill-mode: both;
-}
-.owl-carousel .owl-animated-in {
-z-index: 0;
-}
-.owl-carousel .owl-animated-out {
-z-index: 1;
-}
-.owl-carousel .fadeOut {
--webkit-animation-name: fadeOut;
-animation-name: fadeOut;
-}
 
-@-webkit-keyframes fadeOut {
-0% {
-opacity: 1;
-}
 
-100% {
-opacity: 0;
-}
-}
-@keyframes fadeOut {
-0% {
-opacity: 1;
-}
+  .slider-1,
+  .slider-2,
+  .slider-3 {
+  display: none;
+  }
 
-100% {
-opacity: 0;
-}
-}
+  .show {
+  display: block;
+  }
 
-/*
-* Owl Carousel - Auto Height Plugin
-*/
-.owl-height {
--webkit-transition: height 500ms ease-in-out;
--moz-transition: height 500ms ease-in-out;
--ms-transition: height 500ms ease-in-out;
--o-transition: height 500ms ease-in-out;
-transition: height 500ms ease-in-out;
-}
+  .slider-left {
+  width: 480px;
+  /*background-color: blue;*/
+  float: left;
+  }
 
-/*
-* Core Owl Carousel CSS File
-*/
-.owl-carousel {
-display: none;
-width: 100%;
--webkit-tap-highlight-color: transparent;
-/* position relative and z-index fix webkit rendering fonts issue */
-position: relative;
-z-index: 1;
+
+  .slider-right {
+  width: 400px;
+  height: 320px;
+  /*background-color: blue;*/
+  margin: 0px;
+  float: right;
+  text-align: right;
+  padding: 0px;
+  }
+  .slider-right img {
+  width: 340px;
+  height: 320px;
+  }
+
+  .slider-controller {
+  display: inline-block;
+  /*background-color: yellow;*/
+  margin-top: 14px;
+  margin-left: 145px;
+  }
+  .btn {
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 16px;
+  padding: 10px 70px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  vertical-align: top;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  }
