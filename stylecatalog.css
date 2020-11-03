@@ -86,8 +86,9 @@ p{font-size:16px;line-height:22px
 }
 .main-header-navigation-list
 {float:left;font-size:0;margin:0;max-width:580px;text-align:right
-}.main-header-navigation li{display:inline-block;font-size:14px;line-height:30px;margin-left:45px;padding:0;
-  text-transform:uppercase;vertical-align:top}
+}
+.main-header-navigation li{display:inline-block;font-size:14px;line-height:30px;margin-left:45px;padding:0;text-transform:uppercase;vertical-align:top
+}
   .main-header-navigation li:first-child{margin-left:0
   }
   .main-header-navigation .active{box-shadow:0 2px 0 #fb565a
@@ -104,14 +105,18 @@ p{font-size:16px;line-height:22px
   .main-header
   .busket-enter{display:inline-block;font-size:14px;line-height:30px;position:relative;text-transform:uppercase;vertical-align:top}
   .busket-enter
-  .icon-basket{color:#a6a6a6;font-size:16px;padding:0 3px}.busket-enter:hover .icon-basket{color:#fb565a
+  .icon-basket{color:#a6a6a6;font-size:16px;padding:0 3px
   }
-  .busket-enter:active .icon-basket{color:#cbcbcb}
+  .busket-enter:hover .icon-basket{color:#fb565a
+  }
+  .busket-enter:active .icon-basket{color:#cbcbcb
+  }
   .main-slider{position:relative}.main-slider input[type=radio]{display:none
   }
   .main-slider .slider-controls{bottom:93px;height:10px;left:50%;margin-left:-108px;position:absolute;text-align:center;width:198px;z-index:10}
   .slider-controls label{background:#fff;border:3px solid #fff;border-radius:50%;cursor:pointer;display:inline-block;height:10px;margin:0 3px;vertical-align:top;width:10px}
-        .main-slider .slider-inner{overflow:hidden}
+        .main-slider .slider-inner{overflow:hidden
+        }
         .btn-1:checked~.slider-controls label[for=btn-1],.btn-2:checked~.slider-controls label[for=btn-2],
         .btn-3:checked~.slider-controls label[for=btn-3]{background-color:#c1c1c1
         }
@@ -121,8 +126,12 @@ p{font-size:16px;line-height:22px
         }
         .slider-slide-sub-heading{height:44px;margin:0;max-width:480px;overflow:auto
         }
-        .slider-slide-btn{margin:28px 0 0;width:240px}
-        .slider-slide-btn:hover{background-color:#d6494d}.slider-slide-btn:active{background:#b63538;box-shadow:0 2px 0 #9b2d30 inset}
+        .slider-slide-btn{margin:28px 0 0;width:240px
+        }
+        .slider-slide-btn:hover{background-color:#d6494d
+        }
+        .slider-slide-btn:active{background:#b63538;box-shadow:0 2px 0 #9b2d30 inset
+        }
         .slider-slide-first{background:url(../img/bg-slider-slide-1.png) 100% 20px no-repeat
         }
         .slider-slide-second{background:url(../img/bg-slider-slide-2.png) 640px 25px no-repeat
@@ -138,11 +147,14 @@ p{font-size:16px;line-height:22px
         }
         .main-content{padding-top:80px;padding-bottom:86px
         }
-        .page-catalog .main-content{padding-top:74px;padding-bottom:79px
+        .page-catalog
+        .main-content{padding-top:74px;padding-bottom:79px
         }
-        .page-email-form .main-content{padding-top:20px;padding-bottom:50px
+        .page-email-form
+        .main-content{padding-top:20px;padding-bottom:50px
         }
-        .page-email-form .heading{font-size:36px;line-height:36px
+        .page-email-form
+        .heading{font-size:36px;line-height:36px
         }
         .main-top-heading{font-size:40px;font-weight:500;line-height:49px;min-height:125px;margin:0 auto;padding:31px 0 83px;text-align:center;text-transform:uppercase;width:700px}
         .services-row{border-bottom:2px solid #eee;padding-bottom:79px}
@@ -160,11 +172,14 @@ p{font-size:16px;line-height:22px
         .services-item_website
         .btn{background-color:#fb565a
         }
-        .services-item_website .btn:hover{background-color:#d6494d
+        .services-item_website
+        .btn:hover{background-color:#d6494d
         }
-        .services-item_website .btn:active{background-color:#b63538;box-shadow:0 2px 0 #9b2d30 inset
+        .services-item_website
+        .btn:active{background-color:#b63538;box-shadow:0 2px 0 #9b2d30 inset
         }
-        .services-item_application .btn{background-color:#00ca74
+        .services-item_application
+        .btn{background-color:#00ca74
         }
         .services-item_application
         .btn:hover{background-color:#01a25e
@@ -178,4 +193,3 @@ height: 81px;
 background-color: #e1e1e1;
 border-radius: 50%;
 }
-
