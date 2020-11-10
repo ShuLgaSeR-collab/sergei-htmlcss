@@ -58,28 +58,7 @@ td,th{padding:0
 @font-face{font-family:symbols-nerds;src:url(../fonts/symbols-nerds.eot?27841936);src:url(../fonts/symbols-nerds.eot?27841936#iefix) format("embedded-opentype"),url(../fonts/symbols-nerds.woff?27841936) format("woff"),url(../fonts/symbols-nerds.ttf?27841936) format("truetype"),url(../fonts/symbols-nerds.svg?27841936#symbols-nerds) format("svg");font-weight:400;font-style:normal
 }
 [class*=" icon-"]:before,[class^=icon-]
-:before{font-family:symbols-nerds;font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em}
-.icon-basket:before{content:"\62"
-}
-.icon-facebook:before{content:"\66"
-}
-.icon-twitter:before{content:"\74"
-}
-.icon-vk:before{content:"\76"
-}
-.icon-up-dir:before{content:"\25b2"
-}
-.icon-down-dir:before{content:"\25bc"
-}
-.icon-circle:before{content:"\25cb"
-}
-.icon-circle-dot:before{content:"\25cf"
-}
-.icon-check-off:before{content:"\2610"
-}
-.icon-check-on:before{content:"\2611"
-}
-.icon-instagramm:before{content:"📷"
+:before{font-family:symbols-nerds;font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em
 }
 html{box-sizing:border-box}*,:after,:before{box-sizing:inherit
 }
