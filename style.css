@@ -62,5 +62,22 @@
   margin: 0 auto;
   padding: 0 10px;
   }
-  .bth-slider-btn-red.active:hover{background-color:#fff;border:2px solid #f1f1f1;box-shadow:none;cursor:default;line-height:34px
+  .main-navigation{float:left;max-width:720px;min-height:50px;padding-top:26px;position:relative
   }
+  .main-header-navigation-list{float:left;font-size:0;margin:0;max-width:580px;text-align:right
+  }
+  .main-navigation li{display:inline-block;font-size:14px;line-height:30px;margin-left:45px;padding:0;text-transform:uppercase;vertical-align:top
+  }
+    .main-navigation li:first-child{margin-left:0
+    }
+    .main-navigation .active{box-shadow:0 2px 0 #fb565a
+    }
+    .main-navigation .active:hover{color:#000
+    }
+    .main-navigation a:hover{color:#fb565a
+    }
+    .main-navigation a:active{color:#8f8f8f
+    }
+    .main-navigation
+    .busket{float:right;margin-left:38px;padding-top:0;text-align:right;width:120px
+    }
