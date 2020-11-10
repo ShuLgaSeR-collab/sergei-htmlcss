@@ -87,7 +87,7 @@ p{font-size:16px;line-height:22px
 .main-header-navigation-list
 {float:left;font-size:0;margin:0;max-width:580px;text-align:right
 }
-.main-header-navigation li{display:inline-block;font-size:14px;line-height:30px;margin-left:45px;padding:0;text-transform:uppercase;vertical-align:top
+.main-header-navigation li{display:inline-block;font-size:14px;line-height:55px;margin-left:55px;padding:0;text-transform:uppercase;vertical-align:top
 }
   .main-header-navigation li:first-child{margin-left:0
   }
@@ -182,16 +182,19 @@ p{font-size:16px;line-height:22px
         .services-item_application
         .btn:hover{background-color:#01a25e
         }
-.services-item_application .btn:active{background-color:#009053;box-shadow:0 2px 0
-}
-.social-btn{
+
+  .services-item_application .btn:active{background-color:#009053;box-shadow:0 2px 0
+ }
+
+ .social-btn{
 display: block;
 width: 81px;
 height: 81px;
 background-color: #e1e1e1;
 border-radius: 50%;
-}
-.list-pagination-item{background-color:#f1f1f1;border-radius:5px;display:inline-block;font-size:12px;line-height:37px;margin:0 8px 0 0;min-width:37px;padding:1px 5px;vertical-align:middle;text-align:center;text-transform:uppercase
+ }
+
+ .list-pagination-item{background-color:#f1f1f1;border-radius:5px;display:inline-block;font-size:12px;line-height:37px;margin:0 8px 0 0;min-width:37px;padding:1px 5px;vertical-align:middle;text-align:center;text-transform:uppercase
 }
 .list-pagination-item:hover{background-color:#e5e5e5
 }
