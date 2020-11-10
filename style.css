@@ -79,5 +79,13 @@
     .main-navigation a:active{color:#8f8f8f
     }
     .main-navigation
-    .busket{float:right;margin-left:38px;padding-top:0;text-align:right;width:720px
+    .busket-block{float:right;margin-left:38px;padding-top:0;text-align:right;width:720px
+    }
+    .main-header
+    .busket-enter{display:inline-block;font-size:14px;line-height:30px;position:relative;text-transform:uppercase;vertical-align:top
+    }
+    .busket-enter
+    .busket-enter:hover .icon-basket{color:#fb565a
+    }
+    .busket-enter:active .icon-basket{color:#cbcbcb
     }
