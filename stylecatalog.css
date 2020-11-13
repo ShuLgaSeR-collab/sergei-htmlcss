@@ -76,30 +76,7 @@ p{font-size:16px;line-height:22px
 .btn{background-color:#fb565a;border-radius:3px;display:inline-block;color:#fff;font-size:12px;line-height:38px;overflow:hidden;padding:0 5px;text-align:center;text-overflow:ellipsis;text-transform:uppercase;vertical-align:top;white-space:pre-wrap;width:140px}
 .page-top-wrapper{background-color:#eee;min-height:300px;min-width:920px;padding-top:27px}
 .page-email-form .page-top-wrapper{min-height:142px;padding-bottom:27px}
-.main-header{margin-bottom:28px}
-.main-header
-.logo{display:block;float:left;height:60px;margin-right:180px;width:140px
-}
-.main-header .logo__img{height:56px;width:139px
-}
-.main-header-navigation{float:left;max-width:720px;min-height:50px;padding-top:26px;position:relative
-}
-.main-header-navigation-list
-{float:left;font-size:0;margin:0;max-width:580px;text-align:right
-}
-.main-header-navigation li{display:inline-block;font-size:14px;line-height:55px;margin-left:55px;padding:0;text-transform:uppercase;vertical-align:top
-}
-  .main-header-navigation li:first-child{margin-left:0
-  }
-  .main-header-navigation .active{box-shadow:0 2px 0 #fb565a
-  }
-  .main-header-navigation .active:hover{color:#000
-  }
-  .main-header-navigation a:hover{color:#fb565a
-  }
-  .main-header-navigation a:active{color:#8f8f8f
-  }
-  .main-header-navigation
+
   .busket-block{float:right;margin-left:38px;padding-top:0;text-align:right;width:120px
   }
   .main-header
