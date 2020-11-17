@@ -191,9 +191,8 @@ p{font-size:16px;line-height:22px}.container{margin:0 auto;padding:0 10px;width:
   background-color: #e1e1e1;
   border-radius: 50%;
 }
- .m.active:active,.list-pagination-item.active
+ .m.active:active,.list-pagination-item.active{border-top-right-radius:5px;display:inline-block;height:270px;margin:10px 80px 70px 0;position:relative;vertical-align:middle;width:240px
 }
-border-top-right-radius:5px;display:inline-block;height:270px;margin:10px 80px 70px 0;position:relative;vertical-align:middle;width:240px}
 
 .catalog-item:hover{background-color:#797979
 }
