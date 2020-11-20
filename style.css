@@ -145,7 +145,7 @@ p{font-size:16px;line-height:22px}.container{margin:0 auto;padding:0 10px;width:
 }
 .slider-slide-first{
   background-size: 760px 431px;
-  background-position: top right;
+  background-position: absolute;
   background-repeat: no-repeat;
   list-style: none;
 }
