@@ -143,12 +143,6 @@ p{font-size:16px;line-height:22px}.container{margin:0 auto;padding:0 10px;width:
 }
 .slider-slide-third{background:url(../img/bg-slider-slide-3.png) 540px 0 no-repeat
 }
-.slider-slide-first{
-  background-size: 760px 431px;
-  background-position: absolute;
-  background-repeat: no-repeat;
-  list-style: none;
-}
 
 
 .btn-1:checked~.slider-slides
