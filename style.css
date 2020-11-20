@@ -135,7 +135,7 @@ p{font-size:16px;line-height:22px}.container{margin:0 auto;padding:0 10px;width:
 
 .slider-slide-btn:active{background:#b63538;box-shadow:0 2px 0 #9b2d30 inset
 }
-.slider-slide-first{background:url(img/slide3.jpg) 100% 760px no-repeat
+.slider-slide-first{background:url(img/slide3.jpg) 100% 10px no-repeat
 }
 .slider-slide-second{background:url(../img/bg-slider-slide-2.png) 640px 25px no-repeat
 }
