@@ -252,6 +252,13 @@ p{font-size:16px;line-height:22px}.container{margin:0 auto;padding:0 10px;width:
 }
 .social-text{float:right;width:560px}.social-text .heading{font-size:36px;line-height:36px;margin:0 0 10px
 }
-.social-text .sub-heading{color:#283136;margin:0}@-webkit-keyframes form-bounce{0%{-webkit-transform:translateX(-2000px)}70%{-webkit-transform:translateX(30px)}90%{-webkit-transform:translateX(-10px)}100%{-webkit-transform:translateX(0)}}@keyframes form-bounce{0%{-webkit-transform:translateX(-2000px);transform:translateX(-2000px)}70%{-webkit-transform:translateX(30px);transform:translateX(30px)}90%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}100%{-webkit-transform:translateX(0);transform:translateX(0)
-}
-}
+.social-text .sub-heading{color:#283136;margin:0}@-webkit-keyframes form-bounce{0%{-webkit-transform:translateX(-2000px)}70%{-webkit-transform:translateX(30px)}90%{-webkit-transform:translateX(-10px)}
+100%{-webkit-transform:translateX(0)}}
+@keyframes form-bounce{0%{-webkit-transform:translateX(-2000px);transform:translateX(-2000px)}
+70%{-webkit-transform:translateX(30px);transform:translateX(30px)}90%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}100%{-webkit-transform:translateX(0);
+  transform:translateX(0)10%,30%,50%,70%,90%{-webkit-transform:translateX(-10px)}
+20%,40%,60%,80%{-webkit-transform:translateX(10px)}}
+@keyframes form-error{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}
+10%,30%,50%,70%,90%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}
+20%,40%,60%,80%{-webkit-transform:translateX(10px);transform:translateX(10px)}}
+
