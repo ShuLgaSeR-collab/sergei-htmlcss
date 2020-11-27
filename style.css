@@ -242,7 +242,7 @@ p{font-size:16px;line-height:22px}.container{margin:0 auto;padding:0 10px;width:
 }
 .main-footer-socials .social-icons{float:left;padding:5px 0;text-align:center;max-width:300px
 }
-.social-icons .social-btn{background-color:#e1e1e1;border-radius:50%;color:transparent;display:inline-block;font-size:0;height:62px;line-height:62px;margin-right:23px;vertical-align:top;width:62px
+.social-icons .social-btn{background-color:#e1e1e1;border-radius:50%;color:transparent;display:inline-block;font-size:0;height:81px;line-height:81px;margin-right:23px;vertical-align:top;width:81px
 }
 .social-btn .icon-facebook,.social-btn .icon-instagramm,.social-btn .icon-vk{color:#fff;font-size:23px
 }
@@ -254,6 +254,7 @@ p{font-size:16px;line-height:22px}.container{margin:0 auto;padding:0 10px;width:
 }
 .social-text .sub-heading{color:#283136;margin:0}@-webkit-keyframes form-bounce{0%{-webkit-transform:translateX(-2000px)}70%{-webkit-transform:translateX(30px)}90%{-webkit-transform:translateX(-10px)}
 100%{-webkit-transform:translateX(0)}}
+
 @keyframes form-bounce{0%{-webkit-transform:translateX(-2000px);transform:translateX(-2000px)}
 70%{-webkit-transform:translateX(30px);transform:translateX(30px)}90%{-webkit-transform:translateX(-10px);transform:translateX(-10px)}100%{-webkit-transform:translateX(0);
   transform:translateX(0)10%,30%,50%,70%,90%{-webkit-transform:translateX(-10px)}
