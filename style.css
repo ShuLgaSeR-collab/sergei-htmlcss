@@ -175,7 +175,12 @@ p{font-size:16px;line-height:22px}.container{margin:0 auto;padding:0 10px;width:
       box-shadow: 0 2px 0 #9b2d30 inset
     }
     .slider-slide-first{
-      background:url(img/nerds-index-slide1\ 1.png) 100% 5px no-repeat
+      background:url(img/nerds-index-slide1\ 1.png);
+      position: absolute;
+      width: 760px;
+      height: 431px;
+      left: 537px;
+      top: 114px;
     }
     .slider-slide-second{
       background:url(img/nerds-index-slide2\ 1.png) 640px 25px no-repeat
